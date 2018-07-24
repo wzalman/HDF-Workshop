@@ -61,7 +61,7 @@ NOTE: The following instructions are for using Putty. You can also use other pop
 ### To connect from Linux/MacOSX laptop
 
 - SSH into your EC2 node using below steps:
-- Right click to download [this pem key](https://raw.githubusercontent.com/apsaltis/HDF-Workshop/master/sourabh-aws.pem)  > Save link as > save to Downloads folder
+- Right click to download [this pem key](https://github.com/sourabhghose/HDF-Workshop/blob/master/sourabh-aws.pem)  > Save link as > save to Downloads folder
 - Copy pem key to ~/.ssh dir and correct permissions
     ```
     cp ~/Downloads/hdf-workshop.pem ~/.ssh/
