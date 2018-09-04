@@ -281,7 +281,10 @@ In this lab we are going to explore creating, writing to and consuming Kafka top
   - Step 2: Naviagte to the Kafka directory (````/usr/hdf/current/kafka-broker````), this is where Kafka is installed, we will use the utilities located in the bin directory.
 
     ````
-    #cd /usr/hdf/current/kafka-broker/
+    ##cd /usr/hdf/current/kafka-broker/
+    #
+    #sudo -su root
+    #cd /usr/hdp/current/kafka-broker/
     ````
 
   - Step 3: Create a topic using the kafka-topics.sh script
