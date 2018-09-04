@@ -331,7 +331,7 @@ bin/kafka-console-producer.sh --broker-list sandbox.hortonworks.com:6667 --topic
 ## Integrating Kafka with NiFi
 1. Creating the topic
   - Step 1: Open an SSH connection to your EC2 Node.
-  - Step 2: Naviagte to the Kafka directory (````/usr/hdf/current/kafka-broker````), this is where Kafka is installed, we will use the utilities located in the bin directory.
+  - Step 2: Navigate to the Kafka directory (````/usr/hdf/current/kafka-broker````), this is where Kafka is installed, we will use the utilities located in the bin directory.
 
     ````
     #cd /usr/hdf/current/kafka-broker/
@@ -356,7 +356,7 @@ bin/kafka-console-producer.sh --broker-list sandbox.hortonworks.com:6667 --topic
 
     ![Image](https://github.com/apsaltis/HDF-Workshop/raw/master/publishkafka.png)
   - Step 3: Configure the topic and broker for the PublishKafka_1_0 processor,
-  where topic is meetup_rsvp_raw and broker is demo.hortonworks.com:6667.
+  where topic is meetup_rsvp_raw and broker is sandbox.hortonworks.com:6667.
 
 
 3. Start the NiFi flow
